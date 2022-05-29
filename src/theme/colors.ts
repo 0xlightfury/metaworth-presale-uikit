@@ -1,0 +1,81 @@
+import { Colors } from "./types";
+
+export const baseColors = {
+  failure: "#ED4B9E",
+  primary: "#DFC15E",
+  primaryBright: "#53DEE9",
+  primaryDark: "#0098A1",
+  secondary: "#EB8E02",
+  success: "#31D0AA",
+  warning: "#FFB237",
+};
+
+export const additionalColors = {
+  binance: "#F0B90B",
+  overlay: "#452a7a",
+  gold: "#FFC700",
+  silver: "#B2B2B2",
+  bronze: "#E7974D",
+};
+
+export const lightColors: Colors = {
+  ...baseColors,
+  ...additionalColors,
+  background: "#404040",
+  backgroundDisabled: "#E9EAEB",
+  backgroundAlt: "#252525",
+  backgroundAlt2: "#252525A0",
+  cardBorder: "#DFC15E",
+  contrast: "#191326",
+  dropdown: "#404040",
+  dropdownDeep: "#EEEEEE",
+  invertedContrast: "#FFFFFF",
+  input: "#151515",
+  inputSecondary: "#DFC15E",
+  tertiary: "#404040",
+  text: "#DFC15E",
+  textDisabled: "#BDC2C4",
+  textSubtle: "#DFC15E",
+  disabled: "#E9EAEB",
+  gradients: {
+    bubblegum: "#151515",
+    inverseBubblegum: "#151515",
+    cardHeader: "#151515",
+    blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
+    violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
+    violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
+    gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+  },
+};
+
+export const darkColors: Colors = {
+  ...baseColors,
+  ...additionalColors,
+  secondary: "#EB8E02",
+  background: "#08060B",
+  backgroundDisabled: "#3c3742",
+  backgroundAlt: "#27262c",
+  backgroundAlt2: "rgba(39, 38, 44, 0.7)",
+  cardBorder: "#383241",
+  contrast: "#FFFFFF",
+  dropdown: "#1E1D20",
+  dropdownDeep: "#100C18",
+  invertedContrast: "#191326",
+  input: "#372F47",
+  inputSecondary: "#262130",
+  primaryDark: "#0098A1",
+  tertiary: "#353547",
+  text: "#F4EEFF",
+  textDisabled: "#666171",
+  textSubtle: "#DFC15E",
+  disabled: "#524B63",
+  gradients: {
+    bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+    inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
+    cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
+    blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
+    violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
+    violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
+    gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+  },
+};
